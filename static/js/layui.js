@@ -1,13 +1,5 @@
-/*!
 
- @Title: layui
- @Description：经典模块化前端 UI 框架
- @Site: www.layui.com
- @Author: 贤心
- @License：MIT
 
- */
- 
 ;!function(win){
   "use strict";
 
