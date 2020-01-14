@@ -3,15 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="../static/css/layui.css">
     <title>自动化测试平台</title>
+    <link rel="stylesheet" href="../static/css/layui.css">
+    <link rel="import" href="navTop.html" id="navTopPage">
+    <link rel="import" href="navLeft.html" id="navLeftPage">
 </head>
 <body>
-    <div id="page1"></div>
     <script>
-        $("#page1").load("navLeft.html")
+        document.write(navTopPage.import.body.innerHTML);
+        document.write(navLeftPage.import.body.innerHTML);
     </script>
-</body>
 
+</body>
 
 </html>
