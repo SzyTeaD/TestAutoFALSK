@@ -20,7 +20,13 @@
             <hr>
             </span>
         </div>
+
         <div style="padding: 15px;">我是批量执行</div>
+
+        <div class="layui-upload-drag" id="test9">
+          <i class="layui-icon">&#xe67c;</i>
+          <p>点击上传，或将文件拖拽到此处</p>
+        </div>
 
 
 
@@ -30,11 +36,27 @@
 <script>
     document.write(navTopPage.import.body.innerHTML);
     document.write(navIFPage.import.body.innerHTML);
-    layui.use('element', function(){
-  var element = layui.element;
+layui.use('element', function(){
+    var element = layui.element;
+});
+layui.use('upload', function(){
+  var upload = layui.upload;
 
+  //执行实例
+  var uploadInst = upload.render({
+    elem: '#test1' //绑定元素
+    ,url: '/upload/' //上传接口
+    ,done: function(res){
+      //上传完毕回调
+    }
+    ,error: function(){
+      //请求异常回调
+    }
+  });
 });
 </script>
+
+
 
 </body>
 

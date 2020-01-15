@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9289e5ec-95ba-490d-aeed-0eaa9797e568" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/templates/page/IFTestByCasePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page/IFTestByCasePage.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\PyCharm\py_work\flask_test\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W8dCdIgmDiGu55BNMw7yZKtWJe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/page" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PyCharm\py_work\flask_test\templates\nav" />
+      <recent name="F:\PyCharm\py_work\flask_test\templates\page" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PyCharm\py_work\flask_test\templates\page" />
+      <recent name="F:\PyCharm\py_work\flask_test\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.IFTestByCasePage.html">
+    <configuration name="IFTestByCasePage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/page/IFTestByCasePage.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/page/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="navFooter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/nav/navFooter.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="navIF.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/nav/navIF.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="flask_test" type="Python.FlaskServer">
+      <module name="TestAutoFALSK" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.flask_test" />
+      <item itemvalue="JavaScript Debug.test.html" />
+      <item itemvalue="JavaScript Debug.IFTestByCasePage.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.navFooter.html" />
+      <item itemvalue="JavaScript Debug.navIF.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.IFTestByCasePage.html" />
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.navIF.html" />
+        <item itemvalue="JavaScript Debug.navFooter.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9289e5ec-95ba-490d-aeed-0eaa9797e568" name="默认更改列表" comment="" />
+      <created>1578535029713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578535029713</updated>
+      <workItem from="1578535083918" duration="4821000" />
+      <workItem from="1578876565330" duration="57000" />
+      <workItem from="1578876662429" duration="10830000" />
+      <workItem from="1578964056989" duration="18981000" />
+      <workItem from="1579048856939" duration="854000" />
+      <workItem from="1579054345680" duration="7427000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1578983586233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578983586233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1578985893174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578985893174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1578985957199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578985957199</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1578986183448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578986183448</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init">
+      <created>1578986504003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578986504003</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init">
+      <created>1578988202445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578988202445</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1578989177807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578989177807</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init">
+      <created>1578990283003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578990283003</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1578992880607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578992880608</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init">
+      <created>1579054613616</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579054613616</updated>
+    </task>
+    <task id="LOCAL-00011" summary="init">
+      <created>1579055114288</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579055114288</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init">
+      <created>1579057922618</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579057922618</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init">
+      <created>1579060036580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579060036580</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init">
+      <created>1579069577058</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579069577058</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init">
+      <created>1579070073875</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579070073875</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init">
+      <created>1579070133747</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579070133747</updated>
+    </task>
+    <task id="LOCAL-00017" summary="init">
+      <created>1579070413460</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579070413460</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/PyCharm/py_work/flask_test/static/js" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="512" y="178" key="#Inspections" timestamp="1578903489706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="512" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1578903489706" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578986732223">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578986732223" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578967550311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578967550311" />
+    <state x="575" y="107" key="CommitChangelistDialog2" timestamp="1579071007336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="575" y="107" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579071007336" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578983955669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578983955669" />
+    <state x="643" y="95" key="FileChooserDialogImpl" timestamp="1579059891082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="95" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579059891082" />
+    <state x="781" y="416" width="382" height="208" key="Github.CreateGistDialog" timestamp="1578972628468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="781" y="416" width="382" height="208" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578972628468" />
+    <state x="815" y="410" key="Github.ShareDialog" timestamp="1578972752765">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578972752765" />
+    <state x="769" y="218" key="Github.UntrackedFilesDialog" timestamp="1578972765301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578972765301" />
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1579071007353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579071007353" />
+    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1579071007353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579071007353" />
+    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1579071007353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579071007353" />
+    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1579071007353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579071007353" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1578908334579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578908334579" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1578908334579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578908334579" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1578908334579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578908334579" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1578908334579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578908334579" />
+    <state x="767" y="242" key="RollbackChangesDialog" timestamp="1578993570075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578993570075" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578972609767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578972609767" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579060037837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579060037837" />
+    <state x="561" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1579054347075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="561" y="164" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579054347075" />
+    <state x="769" y="414" key="git4idea.ui.GitResetDialog" timestamp="1578984465074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="414" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578984465074" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TestAutoFALSK$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1579054355674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_test$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1578964071972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_test$flask_test.coverage" NAME="flask_test Coverage Results" MODIFIED="1578558182442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
