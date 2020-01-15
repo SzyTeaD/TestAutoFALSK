@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../../static/css/layui.css">
     <link rel="import" href="../navTop.html" id="navTopPage">
     <link rel="import" href="../navLeft.html" id="navLeftPage">
+    <link rel="import" href="../navFooter.html" id="navFooterPage">
+
 </head>
 <body>
 <div class="layui-layout layui-layout-admin">
@@ -18,6 +20,7 @@
 <script>
     document.write(navTopPage.import.body.innerHTML);
     document.write(navLeftPage.import.body.innerHTML);
+    document.write(navFooterPage.import.body.innerHTML);
     layui.use('element', function(){
   var element = layui.element;
 
