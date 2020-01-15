@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../../static/css/layui.css">
     <link rel="import" href="../nav/navTop.html" id="navTopPage">
     <link rel="import" href="../nav/navIF.html" id="navIFPage">
+    <style>
+</style>
 </head>
 <body>
 <div class="layui-layout layui-layout-admin">
@@ -21,13 +23,24 @@
             </span>
         </div>
 
-        <div style="padding: 15px;">我是批量执行</div>
+        <div class="layui-row">
+            <blockquote class="layui-elem-quote">
+                1.请按照模板数据填写
+                <br />
+                1.请按照模板数据填写
+                <br />
+                1.请按照模板数据填写
+                <br />
+                1.请按照模板数据填写
+            </blockquote>
 
-        <div class="layui-upload-drag" id="test9">
-          <i class="layui-icon">&#xe67c;</i>
-          <p>点击上传，或将文件拖拽到此处</p>
+            <div class="layui-col-md1">
+                <button type="button" class="layui-btn" id="upload">上传文件</button>
+            </div>
+            <div class="layui-col-md1">
+              <p id="errorText"></p>
+            </div>
         </div>
-
 
 
     </div>
@@ -36,28 +49,44 @@
 <script>
     document.write(navTopPage.import.body.innerHTML);
     document.write(navIFPage.import.body.innerHTML);
-layui.use('element', function(){
-    var element = layui.element;
-});
-layui.use('upload', function(){
-  var upload = layui.upload;
-
-  //执行实例
-  var uploadInst = upload.render({
-    elem: '#test1' //绑定元素
-    ,url: '/upload/' //上传接口
+    layui.use(['upload', 'element'], function(){
+      var $ = layui.jquery
+      ,upload = layui.upload
+      ,element = layui.element;
+    var uploadInst = upload.render({
+    elem: '#upload'
+    ,url: ''
+    //,size: 2000 //限制文件大小，单位 KB
+    //,accept: 'file'
+    ,method: 'get'
+    ,fileAccept: 'file'
+    ,exts: "xls|xlsd|"
     ,done: function(res){
-      //上传完毕回调
+      //如果上传失败
+      if(res.code > 0){
+        return layer.msg('上传失败');
+      }
+      //上传成功
     }
     ,error: function(){
-      //请求异常回调
+      this.item.html('上传失败');
+      var demoText = $('#errorText');
+      demoText.html('<span style="color: #FF5722;">上传失败</span>');
+      demoText.find('.demo-reload').on('click', function(){
+        uploadInst.upload();
+      });
+      element.progress('demo', '0%');
     }
+      //演示失败状态，并实现重传
   });
+  //重置上述 upload 实例
+  uploadInst.reload({
+    name:'avatar'
+    ,accept: 'images' //只允许上传图片
+    ,acceptMime: 'image/*' //只筛选图片
+    //,size: 2
+    })
 });
 </script>
-
-
-
 </body>
-
 </html>
