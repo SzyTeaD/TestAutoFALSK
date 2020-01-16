@@ -25,13 +25,13 @@
             <hr>
             </span>
         </div>
-        <div id="urlbar">
+        <form class="layui-form layui-form-pane1" action="" lay-filter="first" id="urlbar">
         <fieldset class="layui-elem-field" >
         <legend>CaseName</legend>
         <div class="layui-field-box">
             <blockquote class="layui-elem-quote layui-quote-nm">
             <div class="layui-row layui-col-space1" >
-                <div class="layui-col-md1" id="method">
+                <div class="layui-col-md2" id="method">
                     <div class="layui-form-item">
                         <div class="layui-inline">
                             <label class="layui-form-label"></label>
@@ -55,7 +55,7 @@
             </blockquote>
         </div>
         </fieldset>
-        </div>
+        </form>
 
 
     <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
@@ -79,12 +79,30 @@
 <script>
 document.write(navTopPage.import.body.innerHTML);
 document.write(navIFPage.import.body.innerHTML);
-layui.use('element', function(){
+layui.use(['element','form', 'layedit', 'laydate'], function(){
 var element = layui.element
 ,layer = layui.layer
 ,layedit = layui.layedit
 ,laydate = layui.laydate;
+//初始赋值
+form.on('checkbox', function(data){
+console.log(this.checked, data.elem.checked);
+});
 
+form.on('switch', function(data){
+console.log(data);
+});
+
+form.on('radio', function(data){
+console.log(data);
+});
+
+//监听提交
+form.on('submit(*)', function(data){
+console.log(data)
+alert(JSON.stringify(data.field));
+return false;
+});
 
 
 });
