@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>自动化测试平台</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="../../static/css/layui.css">
     <link rel="import" href="../nav/navTop.html" id="navTopPage">
     <link rel="import" href="../nav/navIF.html" id="navIFPage">
@@ -11,7 +16,7 @@
 <body>
 <div class="layui-layout layui-layout-admin">
     <div class="layui-body">
-        <div class="bread crumb">
+        <div id="bread crumb">
             <span class="layui-breadcrumb">
             <p>&nbsp</p>
             <a href="index.html">&nbsp&nbsp&nbsp&nbsp首页</a>
@@ -20,21 +25,92 @@
             <hr>
             </span>
         </div>
-        <div style="padding: 15px;">我单个批量执行</div>
+
+        <fieldset class="layui-elem-field">
+        <legend>CaseName</legend>
+
+        <div class="layui-field-box" id="urlbar">
+            <blockquote class="layui-elem-quote layui-quote-nm">
+            <div class="layui-row layui-col-space10" >
+                <div class="layui-col-md1" id="method">
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label"></label>
+                            <div class="layui-input-block">
+                                <select name="quiz" lay-verify="required" lay-verType="tips">
+                                  <option value="0">GET</option>
+                                  <option value="1">POST</option>
+                                </select>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-col-md9">
+                    <label class="layui-form-label"></label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" lay-verify="required|title" lay-reqText="标题不能为空"
+                               required placeholder="请输入地址" autocomplete="off" class="layui-input" >
+                    </div>
+                </div>
+            </div>
+            </blockquote>
+        </div>
+
+        </fieldset>
 
 
+
+
+
+
+
+
+        <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+          <ul class="layui-tab-title">
+            <li class="layui-this">Params</li>
+            <li>Headers</li>
+            <li>Boby</li>
+            <li>Test</li>
+          </ul>
+          <div class="layui-tab-content" style="height: 100px;">
+            <div class="layui-tab-item layui-show">1</div>
+            <div class="layui-tab-item">2</div>
+            <div class="layui-tab-item">3</div>
+            <div class="layui-tab-item">4</div>
+          </div>
+        </div>
 
     </div>
 </div>
 <script src="../../static/js/layui.js"></script>
 <script>
-    document.write(navTopPage.import.body.innerHTML);
-    document.write(navIFPage.import.body.innerHTML);
-    layui.use('element', function(){
-  var element = layui.element;
+document.write(navTopPage.import.body.innerHTML);
+document.write(navIFPage.import.body.innerHTML);
+layui.use('element', function(){
+var element = layui.element
+,layer = layui.layer
+,layedit = layui.layedit
+,laydate = layui.laydate;
 
 });
 </script>
+
+<script>
+layui.use('jquery', function(){
+  var $ = layui.jquery;
+  var submit = function(){
+    return false;
+  };
+  $('#test').on('submit', function(){
+     return false
+  });
+  $('#test').on('submit', function(){
+     return true
+  });
+});
+</script>
+
 
 </body>
 
