@@ -25,13 +25,12 @@
             <hr>
             </span>
         </div>
-
-        <fieldset class="layui-elem-field">
+        <div id="urlbar">
+        <fieldset class="layui-elem-field" >
         <legend>CaseName</legend>
-
-        <div class="layui-field-box" id="urlbar">
+        <div class="layui-field-box">
             <blockquote class="layui-elem-quote layui-quote-nm">
-            <div class="layui-row layui-col-space10" >
+            <div class="layui-row layui-col-space1" >
                 <div class="layui-col-md1" id="method">
                     <div class="layui-form-item">
                         <div class="layui-inline">
@@ -45,7 +44,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="layui-col-md9">
                     <label class="layui-form-label"></label>
                     <div class="layui-input-block">
@@ -56,17 +54,11 @@
             </div>
             </blockquote>
         </div>
-
         </fieldset>
+        </div>
 
 
-
-
-
-
-
-
-        <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+    <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
           <ul class="layui-tab-title">
             <li class="layui-this">Params</li>
             <li>Headers</li>
@@ -93,25 +85,10 @@ var element = layui.element
 ,layedit = layui.layedit
 ,laydate = layui.laydate;
 
+
+
 });
 </script>
-
-<script>
-layui.use('jquery', function(){
-  var $ = layui.jquery;
-  var submit = function(){
-    return false;
-  };
-  $('#test').on('submit', function(){
-     return false
-  });
-  $('#test').on('submit', function(){
-     return true
-  });
-});
-</script>
-
-
 </body>
 
 </html>
