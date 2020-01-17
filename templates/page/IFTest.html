@@ -21,7 +21,7 @@
             <p>&nbsp</p>
             <a href="index.html">&nbsp&nbsp&nbsp&nbsp首页</a>
             <a href="">接口测试</a>
-            <a><cite>接口管理</cite></a>
+            <a><cite><b>接口管理</b></cite></a>
             <hr>
             </span>
         </div>
@@ -95,12 +95,11 @@
 <script>
 document.write(navTopPage.import.body.innerHTML);
 document.write(navIFPage.import.body.innerHTML);
-layui.use(['element','form', 'layedit', 'laydate','code'], function(){
+layui.use(['element','form', 'layedit', 'laydate'], function(){
 var element = layui.element
 ,layer = layui.layer
 ,layedit = layui.layedit
-,laydate = layui.laydate
-,code = layui.code();
+,laydate = layui.laydate;
 
 //初始赋值
 form.on('checkbox', function(data){
