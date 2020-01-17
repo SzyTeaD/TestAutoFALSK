@@ -25,78 +25,83 @@
             <hr>
             </span>
         </div>
+
         <form class="layui-form layui-form-pane1" action="" lay-filter="first" id="urlbar">
-        <fieldset class="layui-elem-field" >
+        <fieldset class="layui-elem-field" style="background-color: #f2f2f2">
         <legend>CaseName</legend>
         <div class="layui-field-box">
-            <blockquote class="layui-elem-quote layui-quote-nm">
-            <div class="layui-row layui-col-space1" >
-                <div   class="layui-col-md1" id="method" >
+            <div class="layui-row layui-col-space20" >
+                <div   class="layui-col-md1" id="method-select" >
                     <select name="quiz" lay-verify="required" lay-verType="tips">
                         <option value="0">GET</option>
                         <option value="1">POST</option>
                     </select>
                 </div>
-
-
-                <div class="layui-col-md5" id="address-text">
-                    <label class="layui-form-label"></label>
-                    <div class="layui-input-block">
-                        <input type="text" name="title" lay-verify="required|title" lay-reqText="标题不能为空"
-                               required placeholder="请输入地址" autocomplete="off" class="layui-input" >
-                    </div>
+                <div class="layui-col-md7" id="address-text">
+                    <input type="text" name="title" lay-verify="required|title" lay-reqText="标题不能为空"
+                           required placeholder="请输入地址" autocomplete="off" class="layui-input" >
                 </div>
                 <div class="layui-col-md1" id="submit-btn">
-                    <div class="layui-form-item">
-                        <div class="layui-input-block">
-                            <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
-                        </div>
-                    </div>
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
                 </div>
                 <div class="layui-col-md1" id="reset-btn">
-                    <div class="layui-form-item">
-                        <div class="layui-input-block">
-                            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
-                        </div>
-                    </div>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                 </div>
 
             </div>
-            </blockquote>
+
         </div>
         </fieldset>
         </form>
 
+        <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+              <ul class="layui-tab-title">
+                <li class="layui-this">Params</li>
+                <li>Headers</li>
+                <li>Boby</li>
+                <li>Test</li>
+              </ul>
+              <div class="layui-tab-content" style="height: 100px;">
+                <div class="layui-tab-item layui-show">1</div>
+                <div class="layui-tab-item">2</div>
+                <div class="layui-tab-item">
+                    <pre class="layui-code" lay-title="JavaScript" lay-height="300px">
+                       //路由
+                        LAY.fn.router = function(hash){
+                          var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
+                          var item, param = {
+                            dir: []
+                          };
+                          for(var i = 0; i < hashs.length; i++){
+                            item = hashs[i].split('=');
+                            /^\w+=/.test(hashs[i]) ? function(){
+                              if(item[0] !== 'dir'){
+                                param[item[0]] = item[1];
+                              }
+                            }() : param.dir.push(hashs[i]);
+                            item = null;
+                          }
+                          return param;
+                        };
+                    </pre>
+                </div>
+                <div class="layui-tab-item">4</div>
+              </div>
+            </div>
 
-
-
-
-    <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
-          <ul class="layui-tab-title">
-            <li class="layui-this">Params</li>
-            <li>Headers</li>
-            <li>Boby</li>
-            <li>Test</li>
-          </ul>
-          <div class="layui-tab-content" style="height: 100px;">
-            <div class="layui-tab-item layui-show">1</div>
-            <div class="layui-tab-item">2</div>
-            <div class="layui-tab-item">3</div>
-            <div class="layui-tab-item">4</div>
-          </div>
         </div>
-
     </div>
-</div>
 <script src="../../static/js/layui.js"></script>
 <script>
 document.write(navTopPage.import.body.innerHTML);
 document.write(navIFPage.import.body.innerHTML);
-layui.use(['element','form', 'layedit', 'laydate'], function(){
+layui.use(['element','form', 'layedit', 'laydate','code'], function(){
 var element = layui.element
 ,layer = layui.layer
 ,layedit = layui.layedit
-,laydate = layui.laydate;
+,laydate = layui.laydate
+,code = layui.code();
+
 //初始赋值
 form.on('checkbox', function(data){
 console.log(this.checked, data.elem.checked);
