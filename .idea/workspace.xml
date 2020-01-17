@@ -4,6 +4,7 @@
     <list default="true" id="9289e5ec-95ba-490d-aeed-0eaa9797e568" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/page/IFTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page/IFTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="F:\PyCharm\py_work\flask_test\templates\nav" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.IFTest.html">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration name="IFTestByCasePage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/page/IFTestByCasePage.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -99,8 +100,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.IFTest.html" />
         <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.IFTest.html" />
         <item itemvalue="JavaScript Debug.form.html" />
         <item itemvalue="JavaScript Debug.IFTestByCasePage.html" />
       </list>
@@ -139,7 +140,8 @@
       <workItem from="1579145595940" duration="213000" />
       <workItem from="1579146448642" duration="9385000" />
       <workItem from="1579167307984" duration="11000" />
-      <workItem from="1579229799049" duration="3767000" />
+      <workItem from="1579229799049" duration="4097000" />
+      <workItem from="1579245716876" duration="6104000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1578983586233</created>
@@ -323,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579232862989</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="init">
+      <created>1579241512993</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579241512993</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,10 +400,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578967550311" />
-    <state x="575" y="107" key="CommitChangelistDialog2" timestamp="1579232861918">
+    <state x="575" y="107" key="CommitChangelistDialog2" timestamp="1579241511892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="107" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579232861918" />
+    <state x="575" y="107" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579241511892" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578983955669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
