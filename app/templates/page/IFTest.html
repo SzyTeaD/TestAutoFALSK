@@ -22,36 +22,36 @@
             <a href="index.html">&nbsp&nbsp&nbsp&nbsp首页</a>
             <a href="">接口测试</a>
             <a><cite><b>接口管理</b></cite></a>
-            <hr>
+            <hr />
             </span>
         </div>
 
         <form class="layui-form layui-form-pane1" action="IFTestByCasePage.html" lay-filter="first" id="urlbar">
-        <fieldset class="layui-elem-field" style="background-color: #f2f2f2">
-        <legend>CaseName</legend>
-        <div class="layui-field-box">
-            <div class="layui-row layui-col-space20" >
-                <div   class="layui-col-md1" id="method-select" >
-                    <select name="quiz" lay-verify="required" lay-verType="tips">
-                        <option value="0">GET</option>
-                        <option value="1">POST</option>
-                    </select>
-                </div>
-                <div class="layui-col-md7" id="address-text">
-                    <input type="text" name="title" lay-verify="required|title" lay-reqText="标题不能为空"
-                           required placeholder="请输入地址" autocomplete="off" class="layui-input" >
-                </div>
-                <div class="layui-col-md1" id="submit-btn">
-                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
-                </div>
-                <div class="layui-col-md1" id="reset-btn">
-                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            <fieldset class="layui-elem-field" style="background-color: #f2f2f2">
+            <legend>CaseName</legend>
+            <div class="layui-field-box">
+                <div class="layui-row layui-col-space20" >
+                    <span   class="layui-col-md1" id="method-select" >
+                        <select name="quiz" lay-verify="required" lay-verType="tips">
+                            <option value="0">GET</option>
+                            <option value="1">POST</option>
+                        </select>
+                    </span>
+                    <span class="layui-col-md7" id="address-text">
+                        <input type="text" name="title" lay-verify="required|title" lay-reqText="标题不能为空"
+                               required placeholder="请输入地址" autocomplete="off" class="layui-input" >
+                    </span>
+                    <span class="layui-col-md1" id="submit-btn">
+                        <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    </span>
+                    <span class="layui-col-md1" id="reset-btn">
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </span>
+
                 </div>
 
             </div>
-
-        </div>
-        </fieldset>
+            </fieldset>
         </form>
 
         <div class="layui-tab layui-tab-brief" id="params" lay-filter="docDemoTabBrief">
