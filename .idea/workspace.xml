@@ -156,11 +156,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.IFTest.html">
+  <component name="RunManager" selected="JavaScript Debug.navIF.html">
     <configuration name="IFTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/app/templates/page/IFTest.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/page/form.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="navIF.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/app/templates/nav/navIF.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="flask_test" type="Python.FlaskServer">
@@ -181,9 +184,11 @@
     <list>
       <item itemvalue="Flask server.flask_test" />
       <item itemvalue="JavaScript Debug.IFTest.html" />
+      <item itemvalue="JavaScript Debug.navIF.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.navIF.html" />
         <item itemvalue="JavaScript Debug.IFTest.html" />
       </list>
     </recent_temporary>
