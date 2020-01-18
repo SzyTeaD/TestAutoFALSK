@@ -2,25 +2,210 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9289e5ec-95ba-490d-aeed-0eaa9797e568" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/app/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/layui/layui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/page/IFTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page/IFTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/laydate/default/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/cattle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/chicken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/dog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/dragon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/monkey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/mouse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/pig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/rabbit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/sheep.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/snake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/headSculpture/tiger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/include.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/all-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/mobile/layer-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/mobile/layim-mobile-open.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/mobile/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav/navFooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nav/navFooter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav/navIF.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nav/navIF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nav/navTop.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/nav/navTop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page/IFTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/page/IFTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page/IFTestByCasePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/page/IFTestByCasePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/test.html" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/page/IFTest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/templates/page/IFTest.html" />
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -29,8 +214,69 @@
       </set>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1069" />
+    <option name="width" value="1100" />
+    <option name="height" value="1391" />
+  </component>
   <component name="ProjectId" id="1W8dCdIgmDiGu55BNMw7yZKtWJe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestAutoFALSK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutoFALSK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutoFALSK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutoFALSK" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutoFALSK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutoFALSK" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutoFALSK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutoFALSK" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutoFALSK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutoFALSK" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="layui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutoFALSK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutoFALSK" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutoFALSK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutoFALSK" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,7 +287,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,17 +297,34 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\PyCharm\py_work\flask_test\templates\page" />
-      <recent name="F:\PyCharm\py_work\flask_test\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\py_work\TestAutoFALSK\app" />
       <recent name="F:\PyCharm\py_work\flask_test\templates\page" />
       <recent name="F:\PyCharm\py_work\flask_test\templates\nav" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\py_work\TestAutoFALSK\app\static" />
+      <recent name="F:\PyCharm\py_work\flask_test\templates\page" />
+      <recent name="F:\PyCharm\py_work\flask_test\templates" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test.html">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.IFTest.html (1)">
     <configuration name="IFTestByCasePage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/page/IFTestByCasePage.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="IFTest.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/app/templates/page/IFTest.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="IFTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TestAutoFALSK/templates/page/IFTest.html" useBuiltInWebServerPort="true">
@@ -97,9 +360,11 @@
       <item itemvalue="JavaScript Debug.IFTestByCasePage.html" />
       <item itemvalue="JavaScript Debug.IFTest.html" />
       <item itemvalue="JavaScript Debug.form.html" />
+      <item itemvalue="JavaScript Debug.IFTest.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.IFTest.html (1)" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.IFTest.html" />
         <item itemvalue="JavaScript Debug.form.html" />
@@ -142,6 +407,7 @@
       <workItem from="1579167307984" duration="11000" />
       <workItem from="1579229799049" duration="4097000" />
       <workItem from="1579245716876" duration="6104000" />
+      <workItem from="1579313664177" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1578983586233</created>
@@ -335,6 +601,37 @@
     <option name="localTasksCounter" value="28" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1277000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="调试" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -354,6 +651,12 @@
         <entry key="1">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -372,6 +675,14 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
@@ -381,6 +692,20 @@
       <set>
         <option value="1" />
       </set>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -499,7 +824,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestAutoFALSK$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1579054355674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/flask_test$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1578964071972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask_test$flask_test.coverage" NAME="flask_test Coverage Results" MODIFIED="1578558182442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_test$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1578964071972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/templates/page/IFTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
