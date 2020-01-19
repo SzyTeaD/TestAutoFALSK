@@ -62,7 +62,9 @@
                 <li>Test</li>
               </ul>
               <div class="layui-tab-content" style="height: 100px;">
-                <div class="layui-tab-item layui-show">1</div>
+                <div class="layui-tab-item layui-show">
+                    <table id="paramTable" lay-filter="paramTable"></table>
+                </div>
                 <div class="layui-tab-item">2</div>
                 <div class="layui-tab-item" id="resboby">
                     <div class="layui-col-lg10">
@@ -96,34 +98,55 @@
     </div>
 </div>
 <script src="../../static/layui/layui.js"></script>
+<script type="text/html" id="paramTableOperation">
+<button class="layui-btn layui-btn-sm" lay-event="add">添加</button>
+<button class="layui-btn layui-btn-sm" lay-event="delete">删除</button>
+</script>
 <script>
 document.write(navTopPage.import.body.innerHTML);
 document.write(navIFPage.import.body.innerHTML);
-layui.use(['element','form', 'layedit', 'laydate'], function(){
+layui.use(['element','form', 'layedit', 'laydate','table'], function(){
 var element = layui.element
-,layer = layui.layer
-,layedit = layui.layedit
-,laydate = layui.laydate;
+    ,form = layui.form
+    ,layedit = layui.layedit
+    ,laydate = layui.laydate
+    ,table = layui.table
+    ,layer = layui.layer;
 
-//初始赋值
-form.on('checkbox', function(data){
-console.log(this.checked, data.elem.checked);
-});
+    //参数表格
+    table.render({
+        elem: '#paramTable'
+        ,url: '../../test/table/params_demo.json'
+        ,height:'315'
+        ,cols: [[
+          {field:'params',  title: 'Params', width:'20%', edit: 'text'}
+          ,{field:'values', title: 'Values', width: '60%', edit: 'text'}
+          ,{field:'operation', title: 'Operation', width: '20%', toolbar: '#paramTableOperation'}
+        ]]
+    });
 
-form.on('switch', function(data){
-console.log(data);
-});
+    //修改表格内容
+    table.on('edit(paramTable)', function(obj){
+    var value = obj.value //得到修改后的值
+    ,data = obj.data //得到所在行所有键值
+    ,field = obj.field; //得到字段
+    layer.msg('[ID: '+ data.id +'] ' + field + ' 字段更改为：'+ value);
+  });
 
-form.on('radio', function(data){
-console.log(data);
-});
+    //监听事件
+    table.on('row(paramTable)', function(obj){
+      console.log(obj.tr) //得到当前行元素对象
+      console.log(obj.data) //得到当前行数据
+      obj.del(); //删除当前行
+      //obj.update(fields) //修改当前行数据
+    });
 
-//监听提交
-form.on('submit(*)', function(data){
-console.log(data)
-alert(JSON.stringify(data.field));
-return false;
-});
+        //监听提交
+        form.on('submit(*)', function(data){
+        console.log(data)
+        alert(JSON.stringify(data.field));
+        return false;
+        });
 
 
 });
