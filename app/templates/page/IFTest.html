@@ -59,14 +59,14 @@
                   <li>Boby</li>
                   <li>Test</li>
               </ul>
-              <div class="layui-tab-content" style="height: 100px;">
+              <div class="layui-tab-content" style="height: 275px;">
                   <div class="layui-tab-item layui-show">
                       <table id="paramTable" lay-filter="paramTable"></table>
                   </div>
                   <div class="layui-tab-item">2</div>
                   <div class="layui-tab-item" id="resboby">
                       <div class="layui-col-lg10">
-                          <textarea name="" required lay-verify="required" placeholder="请输入" class="layui-textarea"></textarea>
+                          <textarea name="" required lay-verify="required" placeholder="请输入" class="layui-textarea"style="height: 275px;"></textarea>
                       </div>
                   </div>
                   <div class="layui-tab-item">4</div>
@@ -116,7 +116,7 @@ layui.use(['element','form', 'layedit', 'laydate','table','layer'], function(){
     table.render({
         elem: '#paramTable'
         ,url: '../../test/table/params_demo.json'
-        ,height:'315'
+        ,height:'275'
         ,cols: [[
           {field:'params',  title: 'Params', width:'20%', edit: 'text'}
           ,{field:'values', title: 'Values', width: '60%', edit: 'text'}
