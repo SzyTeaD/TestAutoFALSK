@@ -1,129 +1,94 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>代码修饰器 - layui</title>
+table.on('tool(demo)', function(obj){
+        var data = obj.data;
+        // console.log(data)
+        if(obj.event === 'check'){
+          //  console.log(data.id);
+            $('.textCon').val("");
+            layer.open({
+                title: '发布申请'
+                ,type: 1
+                ,maxmin:true
+                ,area: ['700px','570px']
+                ,content: $('#toExamine')
+                ,btn: ['申请', '取消']
+                ,yes: function(index, layero) {
+                    var userName = $('#userRadio').val();
+                    if(userName == null || userName == ''){
+                        layer.msg("请选择用户", {icon: 2, time: 2000});
+                        return;
+                    }
+                    var describe = $('.textCon').val();
+                    if(describe == null || describe == ''){
+                        layer.msg("请输入内容", {icon: 2, time: 2000});
+                        return;
+                    }
+                    $.ajax({
+                        type: "post",
+                        url: "/approval/application/save.afca",
+                        dataType:'json',
+                        data: {
+                            name: data.toolName,
+                            targerId: data.id,
+                            status: 0,
+                            type: 'script',
+                            describe: $('.textCon').val(),
+                            key: 'script',
+                            supUser:userName
+                        },
+                        success: function (data) {
+                            var message = data.msg;
+                            if(data.code === '0'){
+                                obj.del();
+                                layer.close(index);
+                                layer.msg(message,{icon: 1,time:2000});
+                                tableObj.reload({
+                                    url:'/cd/workPlatform/tool/queryTools.afca'
+                                });
+                            } else {
+                                layer.alert(message, {
+                                    icon: 2,title:'提示'
+                                });
+                                return;
+                            }
+                        },
+                        error: function () {
+                        }
+                    })
+                }
+            });
+            getAllUser();
+            $('.laytable-cell-checkbox').eq(0).empty();
+        } else if(obj.event === 'del'){
+            layer.confirm('确认删除么', function(index) {
+                $.ajax({
+                    type: "post",
+                    url: "/cd/workPlatform/tool/remove.afca",
+                    dataType:'json',
+                    data: "id="+data.id,
+                    dataType: "json",
+                    success: function (data) {
+                      //  console.log(data);
+                        var message = data.msg;
+                        var code = data.code;
+                       // console.log(message);
+                       // console.log(code);
+                        if(data.code === '0'){
+                            //obj.del();
+                            layer.close(index);
+                            layer.alert(message,{icon: 1,time:2000});
+                            tableObj.reload({
+                                url:'/cd/workPlatform/tool/queryTools.afca'
+                            });
+                        } else {
+                            layer.alert(message, {
+                                icon: 2,title:'提示'
+                            });
+                            return;
+                        }
+                    },
+                    error: function () {
+                    }
 
-<link rel="stylesheet" href="../static/css/layui.css">
-
-<style>
-body{padding: 50px 100px;}
-pre{margin-bottom: 20px;}
-</style>
-</head>
-<body>
-
-<pre class="layui-code" lay-title="JavaScript" lay-height="300px">
-//路由
-LAY.fn.router = function(hash){
-  var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-  var item, param = {
-    dir: []
-  };
-  for(var i = 0; i < hashs.length; i++){
-    item = hashs[i].split('=');
-    /^\w+=/.test(hashs[i]) ? function(){
-      if(item[0] !== 'dir'){
-        param[item[0]] = item[1];
-      }
-    }() : param.dir.push(hashs[i]);
-    item = null;
-  }
-  return param;
-};
-</pre>
-
-<pre class="layui-code" lay-skin="notepad">
-//路由
-LAY.fn.router = function(hash){
-  var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-  var item, param = {
-    dir: []
-  };
-  for(var i = 0; i < hashs.length; i++){
-    item = hashs[i].split('=');
-    /^\w+=/.test(hashs[i]) ? function(){
-      if(item[0] !== 'dir'){
-        param[item[0]] = item[1];
-      }
-    }() : param.dir.push(hashs[i]);
-    item = null;
-  }
-  return param;
-};
-</pre>
-
-<pre class="layui-code">
-var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-var item, param = {
-  dir: []
-};
-<pre class="layui-code">
-//代码中的代码
-var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-var item, param = {
-  dir: []
-};
-</pre>
-</pre>
-
-<pre class="layui-code" lay-skin="notepad">
-//路由
-LAY.fn.router = function(hash){
-  var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-  var item, param = {
-    dir: []
-  };
-  for(var i = 0; i < hashs.length; i++){
-    item = hashs[i].split('=');
-    /^\w+=/.test(hashs[i]) ? function(){
-      if(item[0] !== 'dir'){
-        param[item[0]] = item[1];
-      }
-    }() : param.dir.push(hashs[i]);
-    item = null;
-  }
-  return param;
-};
-<pre class="layui-code" lay-skin="notepad">
-//代码中的代码
-var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-var item, param = {
-  dir: []
-};
-<pre class="layui-code" lay-skin="notepad">
-//代码中的代码
-var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-var item, param = {
-  dir: []
-};
-<pre class="layui-code" lay-skin="notepad">
-//代码中的代码
-var hashs = (hash || location.hash).replace(/^#/, '').split('/') || [];
-var item, param = {
-  dir: []
-};
-</pre>
-</pre>
-</pre>
-</pre>
-
-
-<pre class="layui-code" lay-encode="true">
-  <div>
-    123
-  </div>
-</pre>
-
-
-<script src="../static/js/layui.js"></script>
-<script>
-
-layui.use('code', function(){
-  layui.code();
-});
-
-</script>
-</body>
-</html>
+                })
+            });
+        }
