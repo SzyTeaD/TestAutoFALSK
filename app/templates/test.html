@@ -1,21 +1,9 @@
-table.on('toolbar(tableFilter)', function(obj){
-		if(obj.event === 'add'){
 
-			tabledata.push({
-		  		"materialcode": ""
-		  	      ,"materialname": ""
-		  	      ,"number": ""
-		  	      ,"specifications": ""
-		  	      ,"warehouseid": ""
-		  	      ,"warningnumber": ""
-		  		  ,"topwarning": ""
-		  	      ,"unitprice": ""
-		  	      ,"subtotal": ""
-			          })
+$("#btn-add").off("click").on("click",function(){
 
-	      table.reload('demo', {
-	  	  data: tabledata
-	  		});
+var data1={审批状态:"已完成",报销人:"liyoubing1722",部门名称:"开发部门1221",名称:"出差调查",描述:"出差",创建时间:"2018-07-25",单据时间:"2018-07-05",总金额:"922"};
 
-	    };
-	  });
+AddData.unshift(data1);
+
+table.reload('Table',{
+
