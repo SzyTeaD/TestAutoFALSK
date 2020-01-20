@@ -101,7 +101,9 @@ layui.use(['element','form', 'layedit', 'laydate','table','layer','code'], funct
         ,laydate = layui.laydate
         ,table = layui.table
         ,layer = layui.layer
-        ,code = layui.code();
+        ,code = layui.code()
+        ,$ = layui.$;
+
 
     //参数表格
     table.render({
@@ -115,6 +117,7 @@ layui.use(['element','form', 'layedit', 'laydate','table','layer','code'], funct
         ]]
     });
 
+
     //修改表格内容
     table.on('edit(paramTable)', function(obj){
     var value = obj.value //得到修改后的值
@@ -127,11 +130,26 @@ layui.use(['element','form', 'layedit', 'laydate','table','layer','code'], funct
         var data = obj.data; //获得当前行数据
         var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
         var tr = obj.tr; //获得当前行 tr 的 DOM 对象（如果有的话）
+        var cbList = [];
         if(layEvent === 'del'){ //删除
             layer.confirm('您是否要删除这条参数？', function(index){
             obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
             layer.close(index);//向服务端发送删除指令
             });
+        } else if(layEvent === 'add'){//删除
+                         var newCol = {
+                        "params": "1",
+                        "values": "2",
+                        "operation": "",
+                        };
+                        cbList = table.cache.paramTable;
+                        for (var i = 0; i < cbList.length; i++) {
+                            cbList.push(tableBak[i]);      //将之前的数组备份
+                             }
+                        cbList.push(newCol);
+                        table.reload("paramTable", {
+                            data: cbList,
+                        });
         }
         });
     //监听提交
