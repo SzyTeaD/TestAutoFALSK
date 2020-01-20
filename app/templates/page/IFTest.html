@@ -52,7 +52,7 @@
             </fieldset>
         </form>
 
-        <div class="layui-tab layui-tab-brief" id="params" lay-filter="docDemoTabBrief">
+        <div class="layui-tab layui-tab-brief" id="params" lay-filter="resBobyTabBrief">
               <ul class="layui-tab-title">
                   <li class="layui-this">Params</li>
                   <li>Headers</li>
@@ -99,7 +99,7 @@
 <script src="../../static/layui/layui.js"></script>
 <script type="text/html" id="barParamTable">
     <button class="layui-btn layui-btn-xs" lay-event="add">添加</button>
-    <button class="layui-btn layui-btn-danger layui-btn-xs" lay-event="delete">删除</button>
+    <button class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</button>
 </script>
 <script>
 document.write(navTopPage.import.body.innerHTML);
@@ -132,14 +132,19 @@ layui.use(['element','form', 'layedit', 'laydate','table','layer'], function(){
     layer.msg('[ID: '+ data.id +'] ' + field + ' 字段更改为：'+ value);
     });
 
-    //监听事件
-    table.on('row(paramTable)', function(obj){
-      console.log(obj.tr) //得到当前行元素对象
-      console.log(obj.data) //得到当前行数据
-      obj.del(); //删除当前行
-      // obj.update(fields) //修改当前行数据
-    });
-
+    //监听工具条
+    table.on('tool(paramTable)', function(obj){ //注：tool 是工具条事件名，test 是 table 原始容器的属性 lay-filter="对应的值"
+        var data = obj.data; //获得当前行数据
+        var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+        var tr = obj.tr; //获得当前行 tr 的 DOM 对象（如果有的话）
+        if(layEvent === 'del'){ //删除
+            layer.confirm('您是否要删除这条参数？', function(index){
+            obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
+            layer.close(index);//向服务端发送删除指令
+            });
+        }
+        });
+    $(".layui-table-body .layui-table").append(tr);
     //监听提交
     form.on('submit(*)', function(data){
     console.log(data)
