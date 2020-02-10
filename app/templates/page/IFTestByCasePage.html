@@ -12,6 +12,69 @@
 </head>
 <body>
 <div class="layui-layout layui-layout-admin">
+    <div class="nav">
+    <!-- 导航栏 -->
+        <div class="layui-header">
+        <!-- 头部区域 -->
+            <div class="layui-logo">
+                <span style="font-size: large" >
+                    <a href="../page/index.html"><b style="color: lightseagreen">SnokeAutoTest</b></a>
+                </span>
+            </div>
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item"><a href="../page/IFTestByCasePage.html">接口测试</a></li>
+                <li class="layui-nav-item"><a href="">UI测试</a></li>
+                <li class="layui-nav-item"><a href="">性能</a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">账户管理</a>
+                    <dl class="layui-nav-child">
+                      <dd><a href="">邮件管理</a></dd>
+                      <dd><a href="">消息管理</a></dd>
+                      <dd><a href="">授权管理</a></dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                <a href="javascript:;">
+                <img src="../../static/layui/images/headSculpture/monkey.jpg" class="layui-nav-img">name
+                </a>
+                <dl class="layui-nav-child">
+                  <dd><a href="">基本资料</a></dd>
+                  <dd><a href="">安全设置</a></dd>
+                </dl>
+                </li>
+                <li class="layui-nav-item"><a href="">退出</a></li>
+            </ul>
+        </div>
+        <div class="layui-side layui-bg-black">
+        <!-- 左侧导航区域 -->
+            <div class="layui-side-scroll">
+                <ul class="layui-nav layui-nav-tree" >
+                    <li class="layui-nav-item layui-nav-itemed">
+                    <a class="if-auto" href="javascript:;">接口管理中心</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="../page/IFTest.html ">接口管理</a></dd>
+                        <dd><a href="../page/IFTestByCasePage.html">用例管理</a></dd>
+                    </dl>
+                    </li>
+                    <li class="layui-nav-item layui-nav-itemed">
+                    <a href="javascript:;">配置中心</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:;">项目配置</a></dd>
+                        <dd><a href="">成员管理</a></dd>
+                    </dl>
+                    </li>
+                    <li class="layui-nav-item"><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="layui-footer">
+            <!-- 底部固定区域 -->
+                © TestAutoFalsk 2020 - 0.1
+            </div>
+    </div>
+
     <div class="layui-body">
         <div class="bread crumb">
             <span class="layui-breadcrumb">
@@ -47,8 +110,6 @@
 </div>
 <script src="../../static/layui/layui.js"></script>
 <script>
-    document.write(navTopPage.import.body.innerHTML);
-    document.write(navIFPage.import.body.innerHTML);
     layui.use(['upload', 'element'], function(){
       var $ = layui.jquery
       ,upload = layui.upload
