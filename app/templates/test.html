@@ -1,1 +1,19 @@
-print('1242')
+
+
+        // 新增一条记录
+        $('#createNew').click(function () {
+            // debugger;
+            var tableObj = tableIns;
+            var config = tableObj.config;
+            var dataTemp = config.data;
+            dataTemp.push({id: 'new' + new Date().getTime()});
+            tableIns = table.reload(config.id, $.extend(true, {
+                // 更新数据
+                data: dataTemp,
+            }, config.page ? {
+                // 一般新增都是加到最后，所以始终打开最后一页
+                page: {
+                    curr: Math.ceil(dataTemp.length / config.page.limit)
+                }
+            } : {}));
+        });
