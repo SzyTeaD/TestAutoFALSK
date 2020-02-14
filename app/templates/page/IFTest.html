@@ -88,19 +88,19 @@
                 </span>
             </div>
 
-            <form class="layui-form layui-form-pane1" action="IFTestByCasePage.html" lay-filter="first" id="urlbar">
+            <form class="layui-form layui-form-pane1"  lay-filter="first" id="urlbar" method="post">
             <fieldset class="layui-elem-field" style="background-color: #f2f2f2">
             <legend>CaseName</legend>
             <div class="layui-field-box">
                 <div class="layui-row layui-col-space20" >
-                    <span   class="layui-col-md1" id="method-select" >
-                        <select name="quiz" lay-verify="required" lay-verType="tips">
-                            <option value="0">GET</option>
-                            <option value="1">POST</option>
+                    <span   class="layui-col-md1" id="request_method" >
+                        <select name="request_method" lay-verify="required" lay-verType="tips">
+                            <option value="get">GET</option>
+                            <option value="post">POST</option>
                         </select>
                     </span>
-                    <span class="layui-col-md7" id="address-text">
-                        <input type="text" name="title" lay-verify="required|title" lay-reqText="标题不能为空"
+                    <span class="layui-col-md7" id="request_url">
+                        <input type="text" name="request_url" lay-verify="required|title" lay-reqText="标题不能为空"
                                required placeholder="请输入地址" autocomplete="off" class="layui-input" >
                     </span>
                     <span class="layui-col-md1" id="submit-btn">
